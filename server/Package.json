@@ -1,7 +1,7 @@
 {
   "name": "modem-remote-control",
   "version": "1.0.0",
-  "description": "ESP-01 ও Node.js ভিত্তিক মডেম রিমোট কন্ট্রোল সার্ভার",
+  "description": "ESP-01 ও Node.js",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
