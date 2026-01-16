@@ -2,9 +2,9 @@
 node_modules/
 
 # Environment variables file (contains sensitive info)
-.env
+.env   
 nixpacks.toml/
-# Build artifacts (if any)
+# Build artifacts (if an  dfdy)
 build/
 dist/
 
