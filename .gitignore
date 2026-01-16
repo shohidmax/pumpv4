@@ -1,0 +1,12 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables file (contains sensitive info)
+.env
+
+# Build artifacts (if any)
+build/
+dist/
+
+# Log files
+*.log
