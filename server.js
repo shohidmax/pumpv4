@@ -269,7 +269,7 @@ wss.on('connection', (ws) => {
                 }
             }
             
-            // 4. Get Logs error
+            // 4. Get Logs
             else if (data.command === 'GET_LOGS') {
                 const logs = await MotorLog.find({ macAddress: data.macAddress }).sort({ createdAt: -1 }).limit(50);
                 ws.send(JSON.stringify({ type: 'logListUpdate', payload: logs }));
