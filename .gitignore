@@ -3,7 +3,7 @@ node_modules/
 
 # Environment variables file (contains sensitive info)
 .env
-
+nixpacks.toml/
 # Build artifacts (if any)
 build/
 dist/
